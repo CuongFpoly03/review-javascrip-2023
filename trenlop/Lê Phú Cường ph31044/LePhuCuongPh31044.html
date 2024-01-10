@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab1</title>
+  </head>
+  <body>
+    <h1>bài tập lab</h1>
+  </body>
+</html>
+<script>
+  //lab1
+  const tinh = (radius) => {
+    const Pi = 3.14;
+    const tinh2 = 2 * Pi * radius;
+    const area = Pi * radius * radius;
+
+    return `Bán kính hình tròn là ${radius}, chu vi là ${tinh2.toFixed(
+      2
+    )}, diện tích là ${area.toFixed(2)}`;
+  };
+  const R = prompt("nhập R= ");
+  const kq = tinh(R);
+  console.log(kq);
+
+  // bai2
+  const Arr = [6, 7, 8, 9];
+  //tạo ra mảng pt mới của mảng
+  Arr.splice(Arr.length, 0, 2);
+  console.log(Arr);
+  //xoa phan tử đầu tiên
+  let del = Arr.shift();
+  console.log(del);
+  //bai3
+  const product = {
+    name: "Điện thoại iphoneX",
+    price: 5000000,
+  };
+  const properties = {
+    color: "red",
+    storage: "64G",
+  };
+  //in ra 2 object trên
+  const LogAll = { ...product, ...properties };
+  //them vao Một obbject mới
+  const { name: tensp, price: giatien } = product;
+  const { storage: dungluong } = properties;
+
+  console.log("2 sản phẩm ban đầu", LogAll);
+  console.log("Tên sản phẩm:", tensp);
+  console.log("Đơn giá:", giatien);
+  console.log("Dung lượng:", dungluong);
+</script>

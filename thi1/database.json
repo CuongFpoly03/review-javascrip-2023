@@ -1,0 +1,39 @@
+{
+  "allproducts": [
+    {
+      "namepr": "pr1 updaterrrr",
+      "image": "https://picsum.photos/100/100",
+      "price": "44000",
+      "quantity": "13355",
+      "id": 1
+    },
+    {
+      "namepr": "pr2 upadate",
+      "image": "https://picsum.photos/100/100",
+      "price": "4900055",
+      "quantity": "65",
+      "id": 2
+    },
+    {
+      "namepr": "pr3 update",
+      "image": "https://picsum.photos/100/100",
+      "price": "48000",
+      "quantity": "8",
+      "id": 3
+    },
+    {
+      "namepr": "pr5 update",
+      "image": "https://picsum.photos/100/100",
+      "price": "44000000",
+      "quantity": "90",
+      "id": 4
+    },
+    {
+      "namepr": "pr5 update",
+      "image": "https://picsum.photos/100/100",
+      "price": "440000",
+      "quantity": "44",
+      "id": 5
+    }
+  ]
+}
